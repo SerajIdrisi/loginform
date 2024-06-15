@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn1{
+    float: right;
+    margin-top:40px ;
+    padding: 12px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color: rgb(107, 41, 107);
+    color: white;
+    border: none;
+    font-weight:bold;
+    width: 120px;
+    cursor: pointer;
+
+  }
+
+  .btn1:hover{
+    color:  rgb(107, 41, 107);
+    background-color: white;
+  }
+
+
+  .topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .topnav a:hover{
+    color: red;
+  }  
+  .topnav-right {
+    float: right;
+    color: black;
+    /* padding: 14px 16px; */
+    padding-left: 80px;
+    padding-right: 80px; 
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 30px;
+  }
+
+  .topnav-right :hover{
+    color: red;
+  
+  }
+
+  .polaroid{
+    width: 80%;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-bottom: 25px;
+    align-items: center;
+    opacity: 0.9;
+  }
+
+ .Contact{
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 200px;
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    border: green;
+   
+  }
+
+  .CV{
+    padding: 12px;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 20px;
+    color: black;
+   
+  }
+
+  .para{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 60px;
+    padding: 30px;
+    font-family: Arial;
+  }
+
+ .logo img{
+    width: 200px;
+    height: 100px;
+    border-radius: 2px;
+    margin: 0;
+ }
+
+.image{
+
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.image img{
+  /* height: 100%; */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.Greeting::after{
+  
+
+}
